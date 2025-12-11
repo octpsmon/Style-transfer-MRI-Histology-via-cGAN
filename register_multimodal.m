@@ -1,6 +1,7 @@
+#based on https://www.mathworks.com/help/images/registering-multimodal-mri-images.html#RegisterMultimodalImagesExample-1
+
 fixed = imread('gfap1_1000.tif');
 moving = imread('sag1.tiff');
-
 
 
 fixed  = im2gray(fixed);
@@ -49,4 +50,3 @@ movingRegisteredAffineWithIC = imregister(moving,fixed,'affine',optimizer,metric
 
 imshowpair(movingRegisteredAffineWithIC,fixed)
 title('E: Registration from Affine Model Based on Similarity Initial Condition')
-
