@@ -1,4 +1,4 @@
-#based on https://www.mathworks.com/help/images/registering-multimodal-mri-images.html#RegisterMultimodalImagesExample-1
+% based on https://www.mathworks.com/help/images/registering-multimodal-mri-images.html#RegisterMultimodalImagesExample-1
 
 fixed = imread('gfap1_1000.tif');
 moving = imread('sag1.tiff');
