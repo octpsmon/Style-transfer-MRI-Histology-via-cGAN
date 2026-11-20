@@ -1,4 +1,4 @@
-# Style-transfer-MRI-Histology-via-Cyclic-GAN
+# Style-transfer-MRI-Histology-via-cGAN
 
 Magnetic Resonance Imaging (MRI) is a sensitive tool for probing tissue microstructure and is currently the only non-invasive method available for examining the brain's fiber architecture. As MRI technology becomes more advanced, its comparison with microscopic imaging of the same tissue samples is increasingly valuable, potentially eliminating the need for invasive biopsy procedures for patients in the future.
 
